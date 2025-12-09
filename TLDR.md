@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "TL;DR - Quick Reference"
+title: TL;DR
+nav_order: 2
 ---
 
 # TL;DR: Memory User Edits in 2 Minutes
@@ -89,8 +90,4 @@ From 5Levels case study:
 
 ---
 
-**→ [Read Full Guide](./guide/01_The_Discovery.html)**
-
----
-
-*Guide by Francesco Marinoni Moretto — CC BY 4.0*
+[Start the Full Guide →]({% link guide/01_The_Discovery.md %})

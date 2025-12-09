@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Chapter 7: Managing Limits"
+title: "7. Managing Limits"
+parent: Guide
+nav_order: 7
 ---
 
 # Chapter 7: Managing Your 30-Edit Limit
@@ -166,10 +168,3 @@ Check all that apply:
 | 1-2 | Might help, but low priority |
 | 0 | Skip memory edits for now |
 
----
-
-**End of Chapter 7**
-
----
-
-← [Chapter 6: Best Practices](./06_Best_Practices.html) | [Chapter 8: Troubleshooting →](./08_Troubleshooting.html)

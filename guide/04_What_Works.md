@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Chapter 4: What Works"
+title: "4. What Works"
+parent: Guide
+nav_order: 4
 ---
 
 # Chapter 4: What Works (And What Doesn't)
@@ -181,10 +183,3 @@ In-conversation clarifications
 
 **Together:** Claude works like an expert professional on your team.
 
----
-
-**End of Chapter 4**
-
----
-
-← [Chapter 3: The Four Commands](./03_The_Four_Commands.html) | [Chapter 5: Case Study →](./05_Case_Study_5Levels.html)

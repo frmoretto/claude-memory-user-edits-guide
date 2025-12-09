@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Chapter 9: Limitations"
+title: "9. Limitations"
+parent: Guide
+nav_order: 9
 ---
 
 # Chapter 9: The Honest Limitations
@@ -117,10 +119,6 @@ But they're more effective than the lack of mainstream success stories suggests.
 
 **They're a power-user tool that rewards understanding over casual use.**
 
----
 
-← [Chapter 8: Troubleshooting](./08_Troubleshooting.html) | [Back to Guide Index →](../index.html)
-
----
 
 *Guide by Francesco Marinoni Moretto — CC BY 4.0*

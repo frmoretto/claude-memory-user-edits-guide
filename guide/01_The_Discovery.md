@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Chapter 1: The Discovery"
+title: "1. The Discovery"
+parent: Guide
+nav_order: 1
 ---
 
 # Chapter 1: The Discovery
@@ -86,11 +88,3 @@ The Reddit troubleshooting threads likely reflect:
 - Expecting magic rather than supplementary support
 
 Our controlled test proves memory edits work exceptionally well when used correctly. The lack of mainstream coverage represents an opportunity, not a liability.
-
----
-
-**End of Chapter 1**
-
----
-
-← [Back to Guide Index](../index.html) | [Chapter 2: Facts vs. Behaviors →](./02_Facts_vs_Behaviors.html)

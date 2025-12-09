@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Chapter 3: The Four Commands"
+title: "3. The Four Commands"
+parent: Guide
+nav_order: 3
 ---
 
 # Chapter 3: The Four Commands
@@ -182,18 +184,10 @@ Ask:
 - **If it doesn't work ✗:**
   - Check you're in a Claude Project (not regular chat)
   - Try: "View my memory edits" to verify it was stored
-  - See [Chapter 8: Troubleshooting](./08_Troubleshooting.md)
+  - See [Chapter 8: Troubleshooting]({% link guide/08_Troubleshooting.md %})
 
 ### Step 6: Clean Up
 
 Remove the test edit:
 
 > "Remove memory edit #[number]"
-
----
-
-**End of Chapter 3**
-
----
-
-← [Chapter 2: Facts vs. Behaviors](./02_Facts_vs_Behaviors.html) | [Chapter 4: What Works →](./04_What_Works.html)

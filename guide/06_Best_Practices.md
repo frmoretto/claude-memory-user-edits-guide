@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Chapter 6: Best Practices"
+title: "6. Best Practices"
+parent: Guide
+nav_order: 6
 ---
 
 # Chapter 6: Best Practices From Power Users
@@ -184,10 +186,3 @@ Uses 3 edit slots instead of 1. Only do this for facts that are absolutely criti
 | 9 | Count Characters | Stay under 200 |
 | 10 | Strategic Redundancy | Only for critical facts |
 
----
-
-**End of Chapter 6**
-
----
-
-← [Chapter 5: Case Study](./05_Case_Study_5Levels.html) | [Chapter 7: Managing Limits →](./07_Managing_Limits.html)

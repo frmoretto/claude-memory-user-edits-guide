@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Chapter 2: Facts vs. Behaviors"
+title: "2. Facts vs. Behaviors"
+parent: Guide
+nav_order: 2
 ---
 
 # Chapter 2: The Philosophy — Facts vs. Behaviors
@@ -119,10 +121,3 @@ Claude: "For your Airflow-based ETL on AWS…"
 | Documentation pointers | ~60% |
 | Behavioral instructions | ~30% |
 
----
-
-**End of Chapter 2**
-
----
-
-← [Chapter 1: The Discovery](./01_The_Discovery.html) | [Chapter 3: The Four Commands →](./03_The_Four_Commands.html)

@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Chapter 5: Case Study - 5Levels"
+title: "5. Case Study"
+parent: Guide
+nav_order: 5
 ---
 
 # Chapter 5: Real-World Case Study — 5Levels

@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Chapter 8: Troubleshooting"
+title: "8. Troubleshooting"
+parent: Guide
+nav_order: 8
 ---
 
 # Chapter 8: Troubleshooting
@@ -202,10 +204,3 @@ Claude should mention facts from your memory edits without you prompting them.
 | Too many edits? | Remove P2, keep P0 |
 | Edit confirmed? | Check for "Added memory #X" |
 
----
-
-**End of Chapter 8**
-
----
-
-← [Chapter 7: Managing Limits](./07_Managing_Limits.html) | [Chapter 9: Limitations →](./09_Limitations.html)
