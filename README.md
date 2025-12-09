@@ -10,11 +10,15 @@
 
 ---
 
-## 🌐 Read Online
+## 📖 Read the Full Guide Online
 
-**→ [frmoretto.github.io/claude-memory-user-edits-guide](https://frmoretto.github.io/claude-memory-user-edits-guide/)**
+> **[→ Visit the GitHub Pages site for the best reading experience](https://frmoretto.github.io/claude-memory-user-edits-guide/)**
+>
+> This repository contains the source code. For optimal navigation, search, and formatting, please use the GitHub Pages version above.
 
-**→ [Complete Guide (Single File)](./The_Complete_Guide_to_Claude_memory_user_edits.md)** — Full 2000+ line guide in one document
+**Alternative Formats:**
+- **[Complete Guide (Single Markdown)](./The_Complete_Guide_to_Claude_memory_user_edits.md)** — Full 2000+ line guide in one document
+- **[PDF Version](./The_Complete_Guide_to_Claude_memory_user_edits.pdf)** — For offline reading
 
 ---
 
