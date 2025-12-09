@@ -54,8 +54,8 @@ Claude will remember—even though you never mentioned it in this conversation.
 
 ## 📖 Start Reading
 
-- [TL;DR (2-minute summary)]({% link TLDR.md %})
-- [Chapter 1: The Discovery]({% link guide/01_The_Discovery.md %})
+- [TL;DR (2-minute summary)](TLDR.html)
+- [Chapter 1: The Discovery](guide/01_The_Discovery.html)
 
 ---
 

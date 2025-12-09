@@ -90,4 +90,4 @@ From 5Levels case study:
 
 ---
 
-[Start the Full Guide →]({% link guide/01_The_Discovery.md %})
+[Start the Full Guide →](guide/01_The_Discovery.html)
