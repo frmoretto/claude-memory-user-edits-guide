@@ -62,7 +62,7 @@ Claude will remember—even though you never mentioned it in this conversation.
 ## 📄 Alternative Formats
 
 - [Complete Guide (Single File)](./The_Complete_Guide_to_Claude_memory_user_edits.html) — Full 2000+ lines
-- [PDF Version](./The_Complete_Guide_to_Claude_memory_user_edits.pdf) — For offline reading
+- [PDF Version](https://github.com/frmoretto/claude-memory-user-edits-guide/raw/main/The_Complete_Guide_to_Claude_memory_user_edits.pdf) — For offline reading
 
 ---
 

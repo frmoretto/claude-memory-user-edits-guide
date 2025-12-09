@@ -18,7 +18,7 @@
 
 **Alternative Formats:**
 - **[Complete Guide (Single Markdown)](./The_Complete_Guide_to_Claude_memory_user_edits.md)** — Full 2000+ line guide in one document
-- **[PDF Version](./The_Complete_Guide_to_Claude_memory_user_edits.pdf)** — For offline reading
+- **[PDF Version](https://github.com/frmoretto/claude-memory-user-edits-guide/raw/main/The_Complete_Guide_to_Claude_memory_user_edits.pdf)** — For offline reading
 
 ---
 
