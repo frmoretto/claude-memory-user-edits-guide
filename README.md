@@ -10,15 +10,24 @@
 
 ---
 
-## 🎯 What This Guide Solves
+## 🌐 Read Online
 
-**The Problem:**  
-"Claude keeps forgetting our architecture again." Sound familiar?
+**→ [frmoretto.github.io/claude-memory-user-edits-guide](https://frmoretto.github.io/claude-memory-user-edits-guide/)**
 
-While everyone explains their architecture to Claude for the 47th time, this guide shows you how to achieve **reliable architectural understanding from message one**.
+**→ [Complete Guide (Single File)](./The_Complete_Guide_to_Claude_memory_user_edits.md)** — Full 2000+ line guide in one document
 
-**The Solution:**  
-`memory_user_edits` is Claude's undocumented feature for direct memory control. While officially documented in Anthropic's API reference, it has **zero mainstream practical guides**—until now.
+---
+
+## 🎯 The Core Insight
+
+**Memory edits work for FACTS, not BEHAVIORS.**
+
+| ✅ Works | ❌ Doesn't Work |
+|----------|----------------|
+| "Backend stores 7KB per user" | "Always check docs first" |
+| "Architecture: two-layer model" | "Prioritize architecture over details" |
+
+This one insight separates failed experiments from 62% error reduction.
 
 ---
 
@@ -32,9 +41,6 @@ From controlled testing with [5Levels](https://github.com/frmoretto/5levels) (48
 | **First-try accuracy** | ↑ 60% → 100% |
 | **Context rebuilding** | ↓ Zero needed |
 | **Steering required** | ↓ 3x less |
-| **Team onboarding** | 3 weeks → Instant |
-
-**Testing methodology:** 30+ conversations, controlled experiments, reproducible results.
 
 ---
 
@@ -42,69 +48,70 @@ From controlled testing with [5Levels](https://github.com/frmoretto/5levels) (48
 
 **5-Minute Test:**
 
-```
 1. Open a Claude Project
 2. Ask Claude: "Please add a memory edit: 'User works on [YourProject]'"
 3. Start a new conversation
 4. Ask: "What project am I working on?"
-```
 
 Claude will remember—even though you never mentioned it in this conversation.
 
-**→ [Read the Full Guide](The_Complete_Guide_to_Claude_memory_user_edits.md)** (2,000 lines, comprehensive)
+**→ [TL;DR Version](./TLDR.md)** (2-minute read)
 
 ---
 
-## 📖 What's Inside
+## 📖 The Guide
 
-### Core Concepts
-- **The Discovery** - How this feature was found
-- **Facts vs. Behaviors** - The philosophy that makes this work
-- **How It Actually Works** - Technical deep dive
+The [`/guide`](./guide) folder contains the complete methodology:
 
-### Practical Implementation  
-- **The Four Commands** - `view`, `add`, `remove`, `replace`
-- **What Works (And What Doesn't)** - Tested patterns
-- **Real-World Case Study: 5Levels** - Production implementation
-- **Best Practices** - From 30+ days of testing
+| Chapter | Topic |
+|---------|-------|
+| [Chapter 1](./guide/01_The_Discovery.md) | The Discovery |
+| [Chapter 2](./guide/02_Facts_vs_Behaviors.md) | Facts vs. Behaviors (The Key Insight) |
+| [Chapter 3](./guide/03_The_Four_Commands.md) | The Four Commands |
+| [Chapter 4](./guide/04_What_Works.md) | What Works (And What Doesn't) |
+| [Chapter 5](./guide/05_Case_Study_5Levels.md) | Real-World Case Study: 5Levels |
+| [Chapter 6](./guide/06_Best_Practices.md) | Best Practices |
+| [Chapter 7](./guide/07_Managing_Limits.md) | Managing Your 30-Edit Limit |
+| [Chapter 8](./guide/08_Troubleshooting.md) | Troubleshooting |
+| [Chapter 9](./guide/09_Limitations.md) | The Honest Limitations |
 
-### Advanced Topics
-- **Managing Your 30-Edit Limit** - Strategic curation
-- **Troubleshooting** - Common issues and solutions
-- **Starter Templates** - By project type
-- **Team Workflows** - Collaboration patterns
-
----
-
-## 💡 The Key Insight
-
-**Why most people fail with memory edits:**
-
-| ❌ Doesn't Work | ✅ Works Perfectly |
-|----------------|-------------------|
-| "Always check docs first" (behavior) | "Architecture uses two-layer model" (fact) |
-| "Prioritize architecture" (instruction) | "Backend stores 7KB per user" (fact) |
-
-**Memory edits work for FACTS, not BEHAVIORS.**
-
-This one insight separates failed experiments from 62% error reduction.
+**Prefer a single file?** → [Complete Guide (all chapters)](./The_Complete_Guide_to_Claude_memory_user_edits.md)
 
 ---
 
-## 🧪 Research Methodology
+## 📋 Templates
 
-This guide is based on:
+The [`/templates`](./templates) folder contains starter sets by project type:
 
-- ✅ **Controlled experiments** with reproducible results  
-- ✅ **Real production application** (5Levels platform)
-- ✅ **Reddit community synthesis** (r/ClaudeCode, r/claudexplorers)
-- ✅ **Official Anthropic documentation** analysis
-- ✅ **Fresh testing** (November 2, 2025)
+| Template | Use Case |
+|----------|----------|
+| [Web Development](./templates/WEB_DEVELOPMENT.md) | Full-stack web projects |
+| [Data Science](./templates/DATA_SCIENCE.md) | ML/AI projects |
+| [Mobile App](./templates/MOBILE_APP.md) | iOS, Android, React Native, Flutter |
+| [E-Commerce](./templates/ECOMMERCE.md) | Online stores, marketplaces |
+| [Content Writing](./templates/CONTENT_WRITING.md) | Blogs, social media, documentation |
 
-**Not based on:**  
-- ❌ Speculation or theory
-- ❌ Single anecdotal experience
-- ❌ Marketing claims
+---
+
+## 🔧 Claude Integration
+
+The [`SKILL.md`](./SKILL.md) file is designed for Claude's Skills feature.
+
+**How to use:**
+- **Claude Web/Desktop:** Upload via Skills interface (Settings → Features → Skills)
+- **Claude Projects:** Add to project knowledge
+
+---
+
+## 📄 Alternative Formats
+
+| Format | Best For |
+|--------|----------|
+| **[Web Version](https://frmoretto.github.io/claude-memory-user-edits-guide/)** | Reading online with navigation |
+| **[Complete Markdown](./The_Complete_Guide_to_Claude_memory_user_edits.md)** | Single-file, LLM-friendly |
+| **[PDF Version](./The_Complete_Guide_to_Claude_memory_user_edits.pdf)** | Printing or tablet reading |
+| **[Word Version](./The_Complete_Guide_to_Claude_memory_user_edits.docx)** | Editing or annotations |
+| **[TL;DR](./TLDR.md)** | 2-minute summary |
 
 ---
 
@@ -121,17 +128,6 @@ This guide is based on:
 - ❌ Casual Claude users (regular memory works fine)
 - ❌ Simple single-conversation tasks
 - ❌ Projects without documentation
-
----
-
-## 🔬 The 5Levels Case Study
-
-**Challenge:** 48 documentation files, 35 database tables, complex architecture  
-**Problem:** Claude kept jumping to wrong architectural assumptions  
-**Solution:** 30 targeted memory edits following Facts vs. Behaviors philosophy  
-**Result:** 62% error reduction, near-zero steering needed  
-
-**→ [Read Full Case Study](The_Complete_Guide_to_Claude_memory_user_edits.md#real-world-case-study-5levels)**
 
 ---
 
@@ -172,12 +168,10 @@ Enterprise AI Leader | Constitutional AI Expert | N1AI Community
 
 - 🔗 LinkedIn: [francesco-moretto](https://linkedin.com/in/francesco-moretto)
 - 💼 N1AI: Community of 300+ AI professionals
-- 🗣️ Speaker: AI Tinkerers Milano, European AI circuit
 
-**Other Research:**
-- Constitutional AI implementation frameworks
-- Voice AI production systems (Pipecat, LiveKit)
-- Enterprise AI governance and compliance
+**Related Work:**
+- [Stream Coding](https://github.com/frmoretto/stream-coding) — The 10-20x methodology for AI-accelerated development
+- [5Levels](https://5levels.io) — LinkedIn relationship intelligence platform
 
 ---
 
@@ -189,23 +183,8 @@ Enterprise AI Leader | Constitutional AI Expert | N1AI Community
 
 **Community:**
 - [r/ClaudeAI](https://reddit.com/r/ClaudeAI)
-- [r/ClaudeCode](https://reddit.com/r/ClaudeCode)  
+- [r/ClaudeCode](https://reddit.com/r/ClaudeCode)
 - [r/claudexplorers](https://reddit.com/r/claudexplorers)
-
-**Related Work:**
-- [Simon Willison on Claude Memory](https://simonwillison.net/tags/claude/)
-- [AI SDK Memory Documentation](https://ai-sdk.dev/providers/ai-sdk-providers/anthropic)
-
----
-
-## 🙏 Acknowledgments
-
-This research wouldn't exist without:
-
-- The r/ClaudeCode and r/claudexplorers communities for early feature discovery
-- Anthropic for building powerful memory systems
-- The 5Levels platform for providing a real-world testing ground
-- Early readers who provided feedback
 
 ---
 
@@ -218,13 +197,13 @@ If this guide helped you achieve better Claude performance, **star this reposito
 
 ---
 
-**Last Updated:** November 2025  
-**Version:** 2.1  
+**Last Updated:** December 2025  
+**Version:** 3.0  
 **Status:** Actively Maintained
 
 ---
 
 <p align="center">
   <strong>Stop fighting Claude's memory. Start controlling it.</strong><br>
-  <a href="The_Complete_Guide_to_Claude_memory_user_edits.md">Read the Full Guide →</a>
+  <a href="https://frmoretto.github.io/claude-memory-user-edits-guide/">Read Online</a> • <a href="./TLDR.md">TL;DR</a> • <a href="./The_Complete_Guide_to_Claude_memory_user_edits.md">Full Guide</a>
 </p>

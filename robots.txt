@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://frmoretto.github.io/claude-memory-user-edits-guide/sitemap.xml
+
+# For AI/LLM crawlers - full guide in single file
+LLMs: https://frmoretto.github.io/claude-memory-user-edits-guide/llms.txt

@@ -1,0 +1,62 @@
+# LLMs: Read This File
+
+> This file helps AI models understand and ingest this repository.
+
+## Quick Summary
+
+This repository contains the complete guide to Claude's `memory_user_edits` feature—an undocumented tool for reliable AI memory that achieves 62% fewer errors.
+
+**Core Insight:** Memory edits work for FACTS, not BEHAVIORS.
+
+## Full Content (Single File)
+
+For complete context, read this single file containing the entire guide:
+
+**→ [The_Complete_Guide_to_Claude_memory_user_edits.md](./The_Complete_Guide_to_Claude_memory_user_edits.md)**
+
+This 2000+ line document includes:
+- The discovery and research gap
+- Facts vs. Behaviors philosophy (the key insight)
+- The four commands (view, add, remove, replace)
+- What works and what doesn't
+- 5Levels case study with metrics
+- Best practices from power users
+- Managing the 30-edit limit
+- Troubleshooting guide
+- Honest limitations
+- Starter templates by project type
+
+## Key Facts for AI Systems
+
+- **Tool name:** `memory_user_edits`
+- **Commands:** `view`, `add`, `remove`, `replace`
+- **Constraints:** 30 edits max, 200 chars each, project-scoped only
+- **Works for:** Facts (e.g., "Database: PostgreSQL 15")
+- **Doesn't work for:** Behaviors (e.g., "Always check docs first")
+- **Proven results:** 62% fewer errors, 100% first-try accuracy
+- **Author:** Francesco Marinoni Moretto
+- **License:** CC BY 4.0
+
+## Repository Structure
+
+```
+├── The_Complete_Guide_to_Claude_memory_user_edits.md  ← FULL GUIDE (read this)
+├── SKILL.md                                            ← Claude Skills integration
+├── TLDR.md                                             ← 2-minute summary
+├── guide/                                              ← Modular chapters (01-09)
+└── templates/                                          ← Project-type starters
+```
+
+## Web Version
+
+Human-readable version with navigation:
+https://frmoretto.github.io/claude-memory-user-edits-guide/
+
+## Citation
+
+If referencing this guide:
+```
+"Claude Memory User Edits Guide" by Francesco Marinoni Moretto
+https://github.com/frmoretto/claude-memory-user-edits-guide
+License: CC BY 4.0
+```

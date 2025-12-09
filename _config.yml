@@ -1,0 +1,45 @@
+title: Claude Memory User Edits Guide
+description: The undocumented power tool for reliable AI memory. Systematic testing proves 62% fewer errors with Claude's memory_user_edits feature.
+url: https://frmoretto.github.io/claude-memory-user-edits-guide
+baseurl: ""
+
+# SEO
+author: Francesco Marinoni Moretto
+twitter:
+  username: frmoretto
+  card: summary_large_image
+
+social:
+  name: Francesco Marinoni Moretto
+  links:
+    - https://linkedin.com/in/francesco-moretto
+    - https://github.com/frmoretto
+
+# Open Graph
+logo: /assets/og-image.png
+
+# Jekyll SEO Tag plugin (built into GitHub Pages)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Theme
+remote_theme: pages-themes/minimal@v0.2.0
+
+# Defaults for front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      image: /assets/og-image.png
+
+# Exclude from build
+exclude:
+  - .git
+  - .gitignore
+  - "*.docx"
+  - "*.pdf"
+  - node_modules
+  - vendor

@@ -18,3 +18,14 @@ Desktop.ini
 # Temporary files
 *.tmp
 *.bak
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+Gemfile.lock
+
+# Node (if using any build tools)
+node_modules/
