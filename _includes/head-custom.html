@@ -1,1 +1,30 @@
+<!-- Custom Stylesheet -->
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+<!-- SEO: Canonical URL to prevent duplicate content issues with GitHub repo -->
+<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace: 'index.html', '' }}">
+
+<!-- Structured Data for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "{{ page.title | default: site.title }}",
+  "description": "{{ page.description | default: site.description }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author }}",
+    "url": "https://linkedin.com/in/francesco-moretto"
+  },
+  "datePublished": "2024-11-01",
+  "dateModified": "{{ site.time | date: '%Y-%m-%d' }}",
+  "publisher": {
+    "@type": "Person",
+    "name": "{{ site.author }}"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+  }
+}
+</script>

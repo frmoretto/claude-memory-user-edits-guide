@@ -29,3 +29,6 @@ Gemfile.lock
 
 # Node (if using any build tools)
 node_modules/
+
+# Internal documentation
+SEO_STRATEGY.md

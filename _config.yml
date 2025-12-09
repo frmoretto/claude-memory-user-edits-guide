@@ -34,6 +34,7 @@ back_to_top_text: "Back to top"
 
 # SEO
 author: Francesco Marinoni Moretto
+logo: /assets/images/og-image.png
 twitter:
   username: frmoretto
   card: summary_large_image
@@ -43,6 +44,14 @@ social:
   links:
     - https://linkedin.com/in/francesco-moretto
     - https://github.com/frmoretto
+
+# SEO Tag settings
+tagline: "The undocumented power tool for reliable AI memory"
+lang: en_US
+
+# Webmaster verification (add when ready)
+# google_site_verification: ""
+# bing_site_verification: ""
 
 # Plugins
 plugins:
