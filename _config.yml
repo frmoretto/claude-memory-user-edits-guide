@@ -3,7 +3,7 @@ description: The undocumented power tool for reliable AI memory. Systematic test
 url: https://frmoretto.github.io/claude-memory-user-edits-guide
 baseurl: ""
 
-# Theme - Cayman handles tables better
+# Theme
 remote_theme: pages-themes/cayman@v0.2.0
 
 # SEO
@@ -18,7 +18,7 @@ social:
     - https://linkedin.com/in/francesco-moretto
     - https://github.com/frmoretto
 
-# Jekyll SEO Tag plugin (built into GitHub Pages)
+# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -29,6 +29,11 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Exclude from build
 exclude:
