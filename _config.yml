@@ -1,7 +1,7 @@
 title: Claude Memory User Edits Guide
 description: The undocumented power tool for reliable AI memory. Systematic testing proves 62% fewer errors with Claude's memory_user_edits feature.
-url: https://frmoretto.github.io/claude-memory-user-edits-guide
-baseurl: ""
+url: https://frmoretto.github.io
+baseurl: "/claude-memory-user-edits-guide"
 
 # Theme
 remote_theme: just-the-docs/just-the-docs
