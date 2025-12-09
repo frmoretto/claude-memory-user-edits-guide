@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 4: What Works"
+---
+
 # Chapter 4: What Works (And What Doesn't)
 
 ---
@@ -182,4 +187,4 @@ In-conversation clarifications
 
 ---
 
-← [Chapter 3: The Four Commands](./03_The_Four_Commands.md) | [Chapter 5: Case Study →](./05_Case_Study_5Levels.md)
+← [Chapter 3: The Four Commands](./03_The_Four_Commands.html) | [Chapter 5: Case Study →](./05_Case_Study_5Levels.html)

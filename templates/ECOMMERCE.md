@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Template: E-Commerce"
+---
+
 # Template: E-Commerce Projects
 
 *Starter memory edits for e-commerce and online store projects.*

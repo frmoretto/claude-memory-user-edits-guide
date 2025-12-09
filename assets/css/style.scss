@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "{{ site.theme }}";
+
 /* Modern Typography Override */
 :root {
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;

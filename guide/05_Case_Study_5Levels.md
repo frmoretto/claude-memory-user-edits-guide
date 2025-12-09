@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 5: Case Study - 5Levels"
+---
+
 # Chapter 5: Real-World Case Study — 5Levels
 
 ---
@@ -190,4 +195,4 @@ Memory edits punch far above their weight.
 
 ---
 
-← [Chapter 4: What Works](./04_What_Works.md) | [Chapter 6: Best Practices →](./06_Best_Practices.md)
+← [Chapter 4: What Works](./04_What_Works.html) | [Chapter 6: Best Practices →](./06_Best_Practices.html)

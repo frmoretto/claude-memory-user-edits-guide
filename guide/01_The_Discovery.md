@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 1: The Discovery"
+---
+
 # Chapter 1: The Discovery
 
 ---
@@ -88,4 +93,4 @@ Our controlled test proves memory edits work exceptionally well when used correc
 
 ---
 
-← [Back to README](../README.md) | [Chapter 2: Facts vs. Behaviors →](./02_Facts_vs_Behaviors.md)
+← [Back to Guide Index](../index.html) | [Chapter 2: Facts vs. Behaviors →](./02_Facts_vs_Behaviors.html)

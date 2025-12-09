@@ -1,3 +1,8 @@
+---
+layout: default
+title: "TL;DR - Quick Reference"
+---
+
 # TL;DR: Memory User Edits in 2 Minutes
 
 > **The one thing to remember:** Memory edits work for **FACTS**, not **BEHAVIORS**.
@@ -84,7 +89,7 @@ From 5Levels case study:
 
 ---
 
-**→ [Read Full Guide](./guide/01_The_Discovery.md)**
+**→ [Read Full Guide](./guide/01_The_Discovery.html)**
 
 ---
 

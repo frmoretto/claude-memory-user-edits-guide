@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Template: Data Science"
+---
+
 # Template: Data Science Projects
 
 *Starter memory edits for data science and ML projects.*

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 9: Limitations"
+---
+
 # Chapter 9: The Honest Limitations
 
 *What memory edits cannot do—and why that's okay.*
@@ -114,7 +119,7 @@ But they're more effective than the lack of mainstream success stories suggests.
 
 ---
 
-← [Chapter 8: Troubleshooting](./08_Troubleshooting.md) | [Back to README →](../README.md)
+← [Chapter 8: Troubleshooting](./08_Troubleshooting.html) | [Back to Guide Index →](../index.html)
 
 ---
 

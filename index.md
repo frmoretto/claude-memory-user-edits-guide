@@ -4,28 +4,6 @@ title: Claude Memory User Edits Guide
 description: The undocumented power tool for reliable AI memory. Learn how memory_user_edits achieves 62% fewer errors.
 ---
 
-<style>
-:root {
-  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-  --font-mono: "SF Mono", "Fira Code", Menlo, Monaco, Consolas, monospace;
-  --color-primary: #2563eb;
-  --color-text: #1f2937;
-  --color-border: #e5e7eb;
-}
-body, p, li, td, th, blockquote, span, div { font-family: var(--font-sans) !important; }
-body { font-size: 16px !important; line-height: 1.7 !important; color: var(--color-text) !important; }
-h1, h2, h3, h4, h5, h6 { font-family: var(--font-sans) !important; font-weight: 700 !important; color: var(--color-text) !important; }
-code, pre { font-family: var(--font-mono) !important; }
-table { width: 100% !important; border-collapse: collapse !important; margin: 1.5rem 0 !important; }
-th, td { padding: 0.75rem 1rem !important; text-align: left !important; border: 1px solid var(--color-border) !important; }
-th { background-color: #f9fafb !important; font-weight: 600 !important; }
-tr:nth-child(even) { background-color: #fafafa !important; }
-blockquote { border-left: 4px solid var(--color-primary) !important; background-color: #eff6ff !important; font-style: normal !important; padding: 1rem !important; }
-a { color: var(--color-primary) !important; }
-.main-content h1 { font-size: 2rem !important; }
-.main-content h2 { font-size: 1.5rem !important; }
-</style>
-
 # The Complete Guide to Claude's `memory_user_edits`
 
 > **The undocumented power tool for reliable AI memory**

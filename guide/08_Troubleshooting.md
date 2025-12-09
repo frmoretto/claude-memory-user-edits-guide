@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 8: Troubleshooting"
+---
+
 # Chapter 8: Troubleshooting
 
 ---
@@ -203,4 +208,4 @@ Claude should mention facts from your memory edits without you prompting them.
 
 ---
 
-← [Chapter 7: Managing Limits](./07_Managing_Limits.md) | [Chapter 9: Limitations →](./09_Limitations.md)
+← [Chapter 7: Managing Limits](./07_Managing_Limits.html) | [Chapter 9: Limitations →](./09_Limitations.html)

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Template: Content Writing"
+---
+
 # Template: Content & Writing Projects
 
 *Starter memory edits for content creation and writing projects.*

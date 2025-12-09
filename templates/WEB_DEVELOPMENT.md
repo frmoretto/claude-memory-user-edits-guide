@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Template: Web Development"
+---
+
 # Template: Web Development Projects
 
 *Starter memory edits for web development projects.*

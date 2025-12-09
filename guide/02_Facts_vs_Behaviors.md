@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 2: Facts vs. Behaviors"
+---
+
 # Chapter 2: The Philosophy — Facts vs. Behaviors
 
 ---
@@ -120,4 +125,4 @@ Claude: "For your Airflow-based ETL on AWS…"
 
 ---
 
-← [Chapter 1: The Discovery](./01_The_Discovery.md) | [Chapter 3: The Four Commands →](./03_The_Four_Commands.md)
+← [Chapter 1: The Discovery](./01_The_Discovery.html) | [Chapter 3: The Four Commands →](./03_The_Four_Commands.html)

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Template: Mobile App"
+---
+
 # Template: Mobile App Projects
 
 *Starter memory edits for mobile app development projects.*

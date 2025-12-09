@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 6: Best Practices"
+---
+
 # Chapter 6: Best Practices From Power Users
 
 ---
@@ -185,4 +190,4 @@ Uses 3 edit slots instead of 1. Only do this for facts that are absolutely criti
 
 ---
 
-← [Chapter 5: Case Study](./05_Case_Study_5Levels.md) | [Chapter 7: Managing Limits →](./07_Managing_Limits.md)
+← [Chapter 5: Case Study](./05_Case_Study_5Levels.html) | [Chapter 7: Managing Limits →](./07_Managing_Limits.html)

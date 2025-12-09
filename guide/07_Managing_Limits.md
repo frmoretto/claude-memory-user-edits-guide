@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 7: Managing Limits"
+---
+
 # Chapter 7: Managing Your 30-Edit Limit
 
 ---
@@ -167,4 +172,4 @@ Check all that apply:
 
 ---
 
-← [Chapter 6: Best Practices](./06_Best_Practices.md) | [Chapter 8: Troubleshooting →](./08_Troubleshooting.md)
+← [Chapter 6: Best Practices](./06_Best_Practices.html) | [Chapter 8: Troubleshooting →](./08_Troubleshooting.html)

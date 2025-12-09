@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Chapter 3: The Four Commands"
+---
+
 # Chapter 3: The Four Commands
 
 ---
@@ -191,4 +196,4 @@ Remove the test edit:
 
 ---
 
-← [Chapter 2: Facts vs. Behaviors](./02_Facts_vs_Behaviors.md) | [Chapter 4: What Works →](./04_What_Works.md)
+← [Chapter 2: Facts vs. Behaviors](./02_Facts_vs_Behaviors.html) | [Chapter 4: What Works →](./04_What_Works.html)
