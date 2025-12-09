@@ -6,7 +6,9 @@ baseurl: "/claude-memory-user-edits-guide"
 # Theme
 remote_theme: just-the-docs/just-the-docs
 
-# Site header
+# Site header - make title visible
+logo: ""
+site_title: "Claude Memory User Edits Guide"
 heading_anchors: true
 
 # Color scheme (light/dark)
