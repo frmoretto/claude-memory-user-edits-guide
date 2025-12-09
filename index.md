@@ -1,9 +1,7 @@
 ---
 layout: default
-title: Claude Memory User Edits Guide - Reliable AI Memory
-description: The undocumented power tool for reliable AI memory. Learn how memory_user_edits achieves 62% fewer errors with systematic testing and proven results.
-keywords: claude, anthropic, memory, ai, llm, memory_user_edits, claude projects, ai memory, prompt engineering
-image: /assets/og-image.png
+title: Claude Memory User Edits Guide
+description: The undocumented power tool for reliable AI memory. Learn how memory_user_edits achieves 62% fewer errors.
 ---
 
 # The Complete Guide to Claude's `memory_user_edits`
@@ -33,9 +31,9 @@ From controlled testing with 5Levels (48 documentation files, 35 database tables
 
 | Metric | Improvement |
 |--------|-------------|
-| **Architectural errors** | ↓ 62% reduction |
-| **First-try accuracy** | ↑ 60% → 100% |
-| **Context rebuilding** | ↓ Zero needed |
+| Architectural errors | ↓ 62% reduction |
+| First-try accuracy | ↑ 60% → 100% |
+| Context rebuilding | ↓ Zero needed |
 
 ---
 
@@ -54,8 +52,6 @@ Claude will remember—even though you never mentioned it in this conversation.
 
 ## 📖 Read the Guide
 
-<div class="guide-links">
-
 | Chapter | Topic |
 |---------|-------|
 | [Chapter 1](./guide/01_The_Discovery.html) | The Discovery |
@@ -67,8 +63,6 @@ Claude will remember—even though you never mentioned it in this conversation.
 | [Chapter 7](./guide/07_Managing_Limits.html) | Managing Your 30-Edit Limit |
 | [Chapter 8](./guide/08_Troubleshooting.html) | Troubleshooting |
 | [Chapter 9](./guide/09_Limitations.html) | The Honest Limitations |
-
-</div>
 
 ---
 
@@ -86,9 +80,10 @@ Starter memory edit sets by project type:
 
 ## 📄 Alternative Formats
 
-- **[TL;DR Version](./TLDR.html)** — 2-minute summary
-- **[PDF Version](./The_Complete_Guide_to_Claude_memory_user_edits.pdf)** — For offline reading
-- **[GitHub Repository](https://github.com/frmoretto/claude-memory-user-edits-guide)** — Source & contributions
+- [TL;DR Version](./TLDR.html) — 2-minute summary
+- [Complete Guide (Single File)](./The_Complete_Guide_to_Claude_memory_user_edits.html) — Full 2000+ lines
+- [PDF Version](./The_Complete_Guide_to_Claude_memory_user_edits.pdf) — For offline reading
+- [GitHub Repository](https://github.com/frmoretto/claude-memory-user-edits-guide) — Source & contributions
 
 ---
 
