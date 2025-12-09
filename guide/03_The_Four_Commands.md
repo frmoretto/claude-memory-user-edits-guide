@@ -184,7 +184,7 @@ Ask:
 - **If it doesn't work ✗:**
   - Check you're in a Claude Project (not regular chat)
   - Try: "View my memory edits" to verify it was stored
-  - See [Chapter 8: Troubleshooting]({% link guide/08_Troubleshooting.md %})
+  - See [Chapter 8: Troubleshooting](08_Troubleshooting.html)
 
 ### Step 6: Clean Up
 
