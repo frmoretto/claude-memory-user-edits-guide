@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Template: Web Development"
+title: "Web Development"
+parent: Templates
+nav_order: 5
 ---
 
 # Template: Web Development Projects

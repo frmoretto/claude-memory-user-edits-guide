@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Template: E-Commerce"
+title: "E-Commerce"
+parent: Templates
+nav_order: 3
 ---
 
 # Template: E-Commerce Projects

@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Template: Mobile App"
+title: "Mobile App"
+parent: Templates
+nav_order: 4
 ---
 
 # Template: Mobile App Projects

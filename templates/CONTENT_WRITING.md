@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Template: Content Writing"
+title: "Content Writing"
+parent: Templates
+nav_order: 1
 ---
 
 # Template: Content & Writing Projects

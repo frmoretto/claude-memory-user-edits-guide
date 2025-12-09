@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Template: Data Science"
+title: "Data Science"
+parent: Templates
+nav_order: 2
 ---
 
 # Template: Data Science Projects

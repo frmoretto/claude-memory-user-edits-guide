@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # **The Complete Guide to Claude's memory\_user\_edits**
 
 ## **The Undocumented Power Tool That Gives You Reliable AI Memory**
