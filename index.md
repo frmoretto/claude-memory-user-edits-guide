@@ -4,6 +4,28 @@ title: Claude Memory User Edits Guide
 description: The undocumented power tool for reliable AI memory. Learn how memory_user_edits achieves 62% fewer errors.
 ---
 
+<style>
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", "Fira Code", Menlo, Monaco, Consolas, monospace;
+  --color-primary: #2563eb;
+  --color-text: #1f2937;
+  --color-border: #e5e7eb;
+}
+body, p, li, td, th, blockquote, span, div { font-family: var(--font-sans) !important; }
+body { font-size: 16px !important; line-height: 1.7 !important; color: var(--color-text) !important; }
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-sans) !important; font-weight: 700 !important; color: var(--color-text) !important; }
+code, pre { font-family: var(--font-mono) !important; }
+table { width: 100% !important; border-collapse: collapse !important; margin: 1.5rem 0 !important; }
+th, td { padding: 0.75rem 1rem !important; text-align: left !important; border: 1px solid var(--color-border) !important; }
+th { background-color: #f9fafb !important; font-weight: 600 !important; }
+tr:nth-child(even) { background-color: #fafafa !important; }
+blockquote { border-left: 4px solid var(--color-primary) !important; background-color: #eff6ff !important; font-style: normal !important; padding: 1rem !important; }
+a { color: var(--color-primary) !important; }
+.main-content h1 { font-size: 2rem !important; }
+.main-content h2 { font-size: 1.5rem !important; }
+</style>
+
 # The Complete Guide to Claude's `memory_user_edits`
 
 > **The undocumented power tool for reliable AI memory**
@@ -16,10 +38,24 @@ description: The undocumented power tool for reliable AI memory. Learn how memor
 
 **Memory edits work for FACTS, not BEHAVIORS.**
 
-| ✅ Works | ❌ Doesn't Work |
-|----------|----------------|
-| "Backend stores 7KB per user" | "Always check docs first" |
-| "Architecture: two-layer model" | "Prioritize architecture over details" |
+<table>
+  <thead>
+    <tr>
+      <th>✅ Works</th>
+      <th>❌ Doesn't Work</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>"Backend stores 7KB per user"</td>
+      <td>"Always check docs first"</td>
+    </tr>
+    <tr>
+      <td>"Architecture: two-layer model"</td>
+      <td>"Prioritize architecture over details"</td>
+    </tr>
+  </tbody>
+</table>
 
 This one insight separates failed experiments from 62% error reduction.
 
@@ -29,11 +65,28 @@ This one insight separates failed experiments from 62% error reduction.
 
 From controlled testing with 5Levels (48 documentation files, 35 database tables, 11 modules):
 
-| Metric | Improvement |
-|--------|-------------|
-| Architectural errors | ↓ 62% reduction |
-| First-try accuracy | ↑ 60% → 100% |
-| Context rebuilding | ↓ Zero needed |
+<table>
+  <thead>
+    <tr>
+      <th>Metric</th>
+      <th>Improvement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Architectural errors</td>
+      <td>↓ 62% reduction</td>
+    </tr>
+    <tr>
+      <td>First-try accuracy</td>
+      <td>↑ 60% → 100%</td>
+    </tr>
+    <tr>
+      <td>Context rebuilding</td>
+      <td>↓ Zero needed</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -52,17 +105,52 @@ Claude will remember—even though you never mentioned it in this conversation.
 
 ## 📖 Read the Guide
 
-| Chapter | Topic |
-|---------|-------|
-| [Chapter 1](./guide/01_The_Discovery.html) | The Discovery |
-| [Chapter 2](./guide/02_Facts_vs_Behaviors.html) | Facts vs. Behaviors (The Key Insight) |
-| [Chapter 3](./guide/03_The_Four_Commands.html) | The Four Commands |
-| [Chapter 4](./guide/04_What_Works.html) | What Works (And What Doesn't) |
-| [Chapter 5](./guide/05_Case_Study_5Levels.html) | Real-World Case Study: 5Levels |
-| [Chapter 6](./guide/06_Best_Practices.html) | Best Practices |
-| [Chapter 7](./guide/07_Managing_Limits.html) | Managing Your 30-Edit Limit |
-| [Chapter 8](./guide/08_Troubleshooting.html) | Troubleshooting |
-| [Chapter 9](./guide/09_Limitations.html) | The Honest Limitations |
+<table>
+  <thead>
+    <tr>
+      <th>Chapter</th>
+      <th>Topic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="./guide/01_The_Discovery.html">Chapter 1</a></td>
+      <td>The Discovery</td>
+    </tr>
+    <tr>
+      <td><a href="./guide/02_Facts_vs_Behaviors.html">Chapter 2</a></td>
+      <td>Facts vs. Behaviors (The Key Insight)</td>
+    </tr>
+    <tr>
+      <td><a href="./guide/03_The_Four_Commands.html">Chapter 3</a></td>
+      <td>The Four Commands</td>
+    </tr>
+    <tr>
+      <td><a href="./guide/04_What_Works.html">Chapter 4</a></td>
+      <td>What Works (And What Doesn't)</td>
+    </tr>
+    <tr>
+      <td><a href="./guide/05_Case_Study_5Levels.html">Chapter 5</a></td>
+      <td>Real-World Case Study: 5Levels</td>
+    </tr>
+    <tr>
+      <td><a href="./guide/06_Best_Practices.html">Chapter 6</a></td>
+      <td>Best Practices</td>
+    </tr>
+    <tr>
+      <td><a href="./guide/07_Managing_Limits.html">Chapter 7</a></td>
+      <td>Managing Your 30-Edit Limit</td>
+    </tr>
+    <tr>
+      <td><a href="./guide/08_Troubleshooting.html">Chapter 8</a></td>
+      <td>Troubleshooting</td>
+    </tr>
+    <tr>
+      <td><a href="./guide/09_Limitations.html">Chapter 9</a></td>
+      <td>The Honest Limitations</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
